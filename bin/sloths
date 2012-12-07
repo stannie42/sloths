@@ -1,0 +1,11 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+from daemon import runner
+from sloths import Sloths
+import ConfigParser
+
+if __name__ == '__main__':
+    app = Sloths(self, '/dev/null', '/dev/tty', '/dev/tty', '/tmp/sloths.pid', 6)
+    daemon_runner = runner.DaemonRunner(app)
+    daemon_runner.do_action()

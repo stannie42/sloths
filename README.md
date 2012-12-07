@@ -1,4 +1,4 @@
 sloths
 ======
 
-REST API for NoSQL DocumentStore auto-managed.
+API Rest for NoSQL DocumentStore auto-managed.
